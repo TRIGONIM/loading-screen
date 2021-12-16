@@ -1,0 +1,155 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Loading Screen</title>
+	<meta charset="utf-8">
+	<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+	<link rel="dns-prefetch" href="https://steamcdn-a.akamaihd.net">
+	<link rel="dns-prefetch" href="https://fonts.gstatic.com">
+	<link rel="stylesheet" href="loading.css?27995c">
+	<link rel="stylesheet" href="fusion.css?27995c">
+</head>
+
+<body>
+
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+	<div class="overlay"></div>
+
+	<div id="container" class="pure-center" style="top: 50.5%;">
+		<div class="header">
+		</div>
+		<div class="row">
+
+			<div id="rules-parent" class="col xl-3 block">
+			</div>
+
+			<!-- staff -->
+			<div id="staff-parent" class="col xl-3 block">
+				<div>
+					<div class="block-item block-header">
+						<h2>Staff</h2>
+					</div>
+					<div class="block-item block-content">
+						<div id="k-load-staff"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- music -->
+			<div id="music" class="col xl-3 block hide">
+
+			</div>
+
+			<!-- info -->
+			<div class="col xl-3 block">
+
+			</div>
+
+			<!-- percentage -->
+			<div id="percentage" class="col xl-3 block hide">
+				<div></div>
+			</div>
+		</div>
+
+		<div>
+
+
+			<div style="margin-top: -20%; position: inherit;">
+				<center><img src="assets\textlogo.png" alt=""></center>
+				<br>
+				<br>
+
+			</div>
+			<h2>
+				<center>
+					<script>
+						var a = Math.round(Math.random() * 4)
+						// это число должно совпадать с максимальным индексом таблицы ссылок
+
+						txt = new Array();
+						txt[0] = "Любовь это когда он жестоко убил, но извинился"
+						txt[1] = "Любовь это варить кокаин вместе"
+						txt[2] = "Любовь это просить зайти на сервер, чтобы вместе поставить защитные ворота"
+						txt[3] = "Любовь это сожрать его труп за каннибала"
+						txt[4] = "Любовь это повесить на своей базе картины совместно поверженных врагов"
+
+						document.write("" + txt[a] + "");
+					</script>
+				</center>
+			</h2>
+
+		</div>
+		<br>
+
+		<div class="loading-bar"></div>
+		<div class="center-text">
+			<br>
+			<!-- <img src="assets\animation.gif" alt="" width="60px"> -->
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+				style="margin: auto; display: block;" width="60px" height="60px" viewBox="0 0 100 100"
+				preserveAspectRatio="xMidYMid">
+				<g transform="translate(50 50)">
+					<g>
+						<animateTransform attributeName="transform" type="rotate" values="0;45" keyTimes="0;1"
+							dur="0.2s" repeatCount="indefinite"></animateTransform>
+						<path
+							d="M29.491524206117255 -5.5 L37.491524206117255 -5.5 L37.491524206117255 5.5 L29.491524206117255 5.5 A30 30 0 0 1 24.742744050198738 16.964569457146712 L24.742744050198738 16.964569457146712 L30.399598299691117 22.621423706639092 L22.621423706639096 30.399598299691114 L16.964569457146716 24.742744050198734 A30 30 0 0 1 5.5 29.491524206117255 L5.5 29.491524206117255 L5.5 37.491524206117255 L-5.499999999999997 37.491524206117255 L-5.499999999999997 29.491524206117255 A30 30 0 0 1 -16.964569457146705 24.742744050198738 L-16.964569457146705 24.742744050198738 L-22.621423706639085 30.399598299691117 L-30.399598299691117 22.621423706639092 L-24.742744050198738 16.964569457146712 A30 30 0 0 1 -29.491524206117255 5.500000000000009 L-29.491524206117255 5.500000000000009 L-37.491524206117255 5.50000000000001 L-37.491524206117255 -5.500000000000001 L-29.491524206117255 -5.500000000000002 A30 30 0 0 1 -24.742744050198738 -16.964569457146705 L-24.742744050198738 -16.964569457146705 L-30.399598299691117 -22.621423706639085 L-22.621423706639092 -30.399598299691117 L-16.964569457146712 -24.742744050198738 A30 30 0 0 1 -5.500000000000011 -29.491524206117255 L-5.500000000000011 -29.491524206117255 L-5.500000000000012 -37.491524206117255 L5.499999999999998 -37.491524206117255 L5.5 -29.491524206117255 A30 30 0 0 1 16.964569457146702 -24.74274405019874 L16.964569457146702 -24.74274405019874 L22.62142370663908 -30.39959829969112 L30.399598299691117 -22.6214237066391 L24.742744050198738 -16.964569457146716 A30 30 0 0 1 29.491524206117255 -5.500000000000013 M0 -20A20 20 0 1 0 0 20 A20 20 0 1 0 0 -20"
+							fill="#389fff"></path>
+					</g>
+				</g>
+			</svg>
+			<h1 id='prony' class="progress"></h1>
+		</div>
+	</div>
+	</div>
+
+
+
+	<script>
+		var site = { "host": "", "path": "", "url": "", "current": "" };
+		var backgrounds = { "enable": 1, "random": 1, "duration": 10000, "fade": 750 };
+		backgrounds.list = { "global": ["assets\/1.jpg", "assets\/2.jpg", "assets\/3.jpg", "assets\/4.jpg", "assets\/5.jpg", "assets\/6.jpg", "assets\/7.jpg", "assets\/8.jpg", "assets\/9.jpg", "assets\/10.jpg", "assets\/11.jpg"] };
+		var youtube = { "enable": 0, "random": 0, "volume": 0, "list": [] };
+		var messages = { "duration": 5000, "fade": 750, "list": { "global": [""] } };
+		var rules = { "duration": 10000, "list": [] };
+		var staff = { "list": [] };
+		var music = { "enable": 1, "random": 1, "volume": 3, "source": "files", "order": [""] };
+		var rules_per_page = staff_per_page = 7;
+		var rules_fade_delay = staff_fade_delay = 750;
+
+	</script>
+
+	<script>
+		staff_per_page = 5;
+
+		function GameDetails_custom(servername, serverurl, mapname, maxplayers, steamid, gamemode) {
+			const gamemodeRules = checkGamemode(gamemode, rules.list);
+			const gamemodeStaff = checkGamemode(gamemode, staff.list);
+
+			if (!gamemodeRules) {
+				document.getElementById('rules-parent').style.display = 'none';
+				showMusicBlock();
+			}
+			if (!gamemodeStaff) {
+				document.getElementById('staff-parent').style.display = 'none';
+				showPercentageBlock();
+			}
+		}
+
+		function showMusicBlock() {
+			document.getElementById('music').style.display = 'inline-block';
+		}
+
+		function showPercentageBlock() {
+			document.getElementById('percentage').style.display = 'inline-block';
+		}
+	</script>
+	<script src="loading-improved.js?27995c"></script>
+
+</body>
+
+</html>

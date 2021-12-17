@@ -12,7 +12,7 @@
 body {
     font-family: 'Rajdhani', sans-serif;
     color: #fff;
-    background-color: #fde931;
+    background-color: #389dff;
 }
 
 h1,
@@ -102,7 +102,7 @@ p {
 .block-item {
     position: relative;
     background-color: rgba(15, 18, 21, 0.7);
-    border-top: 1px solid #fde931;
+    border-top: 1px solid #389dff;
 }
 
 .block-header {
@@ -164,7 +164,7 @@ p {
 
 .k-load-staff--rank {
     font-size: .9rem;
-    color: #fde931;
+    color: #389dff;
 }
 
 .info {
@@ -180,12 +180,12 @@ p {
 }
 
 span.server-name {
-    color: #fde931;
+    color: #389dff;
     font-weight: 600;
 }
 
 .staff-rank {
-    color: #fde931;
+    color: #389dff;
 }
 
 .messages {

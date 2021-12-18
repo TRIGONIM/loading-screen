@@ -16,6 +16,9 @@
 *:after {
     -webkit-box-sizing: inherit;
     box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+
 }
 
 html {
@@ -251,18 +254,19 @@ body,
 
 .k-load-background {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
+    object-fit: cover;
+    height: 100%;
     width: 100%;
     opacity: 0;
     -webkit-transition: opacity .75s ease-out;
+    z-index: -1;
 }
 
 .k-load-background.active,
 .k-load-rule-block.active,
 .k-load-staff-block.active {
     opacity: 1;
+    z-index: 1;
 }
 
 .k-load-rule-block,

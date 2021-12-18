@@ -12,7 +12,8 @@
 body {
     font-family: 'Rajdhani', sans-serif;
     color: #fff;
-    background-color: #389dff;
+    background: #389dff url(assets/1.jpg);
+    background-size: cover;
 }
 
 h1,

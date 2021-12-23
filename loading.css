@@ -250,6 +250,7 @@ body,
     width: auto;
     height: auto;
     overflow: hidden;
+    opacity: 0.6;
 }
 
 .k-load-background {
@@ -284,7 +285,6 @@ body,
 #prony {
     margin-top: 10px;
     font-size: 30px;
-    text-shadow: 0px 6px 8px #0000001c;
 }
 
 .row {

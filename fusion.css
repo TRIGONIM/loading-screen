@@ -57,6 +57,7 @@ p {
     max-width: 1450px;
     height: 75%;
     max-height: 700px;
+    filter: drop-shadow(2px 4px 6px #06163180);
 }
 
 .row,
